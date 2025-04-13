@@ -4,7 +4,7 @@ plugins {
 
 android {
     namespace 'com.example.electronator'
-    compileSdk 34
+    compileSdk 35
 
     defaultConfig {
         applicationId "com.example.electronator"
@@ -38,6 +38,7 @@ dependencies {
     implementation libs.constraintlayout
     implementation libs.navigation.fragment
     implementation libs.navigation.ui
+    implementation libs.activity
     testImplementation libs.junit
     androidTestImplementation libs.ext.junit
     androidTestImplementation libs.espresso.core

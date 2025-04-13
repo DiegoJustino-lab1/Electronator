@@ -13,11 +13,26 @@
         android:theme="@style/Theme.Electronator"
         tools:targetApi="31">
         <activity
-
+            android:name=".EnergyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SensorActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MicrocontrollerActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SecondActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ResistorActivity"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>

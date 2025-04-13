@@ -1,0 +1,12 @@
+package com.example.electronator;
+
+import android.os.Bundle;
+import androidx.appcompat.app.AppCompatActivity;
+
+public class MicrocontrollerActivity extends AppCompatActivity {
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_microcontroller); // Certifique-se de que o layout está correto
+    }
+}
