@@ -4,7 +4,7 @@
 
 Electronator é um aplicativo Android, desenvolvido em Java no Android Studio, que permite navegar e comprar componentes eletrônicos diretamente do seu smartphone.
 
-## 📋 Sumário
+## 📋 Sumário 
 
 - [Funcionalidades](#-funcionalidades)  
 - [Tecnologias](#-tecnologias)  
